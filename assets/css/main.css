@@ -160,6 +160,21 @@ textarea {
 	appearance: none;
 }
 
+/* Icons */
+ul.icons li a.icon {
+    color: #839bb7; 
+}
+
+/* Change color on hover */
+ul.icons li a.icon:hover {
+    color: #c7aaac; 
+}
+
+ul.icons li a.icon {
+    font-size: 3em; /* Adjust the size as needed */
+}
+/* Icons */
+
 /* My fancy buttons */
 
 .fancy-button {
@@ -2380,7 +2395,7 @@ input[type="reset"].primary,
 button.primary,
 .button.primary {
 	background: #be9786;
-	border-color: #988cd7;
+	border-color: #90a6c4;
 	color: #fff !important;
 }
 
@@ -2389,8 +2404,8 @@ input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-	background: #90a6c4 !important;
-	border-color: #be9786 !important;
+	background: #c7aaac   !important;
+	border-color: #aaa3a9  !important;
 }
 
 input[type="button"].fit,
@@ -2436,7 +2451,7 @@ button.small,
 .wrapper.style2 input[type="reset"]:hover,
 .wrapper.style2 button:hover,
 .wrapper.style2 .button:hover {
-	background: rgba(255, 255, 255, 0.15) !important;
+	background: #be9786 !important;
 }
 
 .wrapper.style2 input[type="button"].primary,
