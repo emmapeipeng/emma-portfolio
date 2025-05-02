@@ -162,12 +162,12 @@ textarea {
 
 /* Icons */
 ul.icons li a.icon {
-    color: #839bb7; 
+    color: #839bb7;
 }
 
 /* Change color on hover */
 ul.icons li a.icon:hover {
-    color: #c3b9bb  ; 
+    color: #839bb7  ; 
 }
 
 ul.icons li a.icon {
@@ -2395,7 +2395,7 @@ input[type="reset"].primary,
 button.primary,
 .button.primary {
 	background: #be9786;
-	border-color: #90a6c4;
+	border-color: #be9786;
 	color: #fff !important;
 }
 
@@ -2404,7 +2404,7 @@ input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-	background: #a7b4c2   !important;
+	background: #90a6c4   !important;
 	border-color: #aaa3a9  !important;
 }
 
@@ -3535,6 +3535,7 @@ body.index #main {
 	/* Main */
 
 	#main {
+
 		background-size: 10em;
 		padding: 3.5em 0 2.5em 0;
 	}
