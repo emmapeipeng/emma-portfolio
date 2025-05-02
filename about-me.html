@@ -14,6 +14,18 @@
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
+
+
+	<style>
+		nav#nav ul li a:hover {
+			background-color: #c7aaac;
+			color: white;
+		}
+		
+	</style>
+
+	
+
 </head>
 
 <body class="no-sidebar is-preload">
@@ -24,7 +36,7 @@
 			<h1 id="logo"><a href="index.html">Emma Peng's <span>Portfolio</span></a></h1>
 			<nav id="nav">
 				<ul>
-					<li class="current"><a href="about-me.html">About Me</a></li>
+					<li class="current"><a href="about-me.html" id="about-me-link" style="font-weight: 900;">About Me</a></li>
 					<li class="submenu">
 						<a href="#">EXPLORE</a>
 						<ul>
@@ -35,8 +47,8 @@
 							<li class="submenu">
 								<a href="#">Academics</a> 
 								<ul>
-									<li><a href="index.html">Work Experiences</a></li>
-									<li><a href="left-sidebar.html">Relevant Coursework</a></li>
+									<li><a href="index.html">Coursework</a></li>
+									<li><a href="left-sidebar.html">Experiences</a></li>
 									<li><a href="right-sidebar.html">Resume</a></li>
 
 								</ul>
@@ -70,12 +82,12 @@
 				bottom: 18%;
 				background-color: rgba(237, 235, 235, 0.65);
 				z-index: 1;
-				border: 2px solid rgba(222, 199, 199, 0.6);
+				border: 2px solid rgba(255, 255, 255, 0.6);
 			"></div>
 
 				<!-- Text content -->
 				<div style="position: relative; z-index: 2;">
-					<h2 style="font-size: 68px;"><strong>ABOUT ME</strong></h2>
+					<h2 style="font-size: 68px; font-weight: bolder;"><strong>ABOUT ME</strong></h2>
 					<h2 style="font-size: 18px;"><b><strong>University of Michigan - 2027 | Statistics & Data Science
 						<br> GRAND RAPIDS, MI
 					</strong></h2></b>
@@ -93,20 +105,23 @@
 				<!-- Content -->
 				<div class="content">
 					<section>
-						<p style="text-align: center;">
-							Hello! My name is Emma, and I'm a rising junior at the University of Michigan. <br> 
-							I'm pursuing a B.S in Statistics B.S. and B.S. in Data Science B.S. with an emphasis on 
+						<p style="text-align: center;"> <bold>
+							Hello! My name is Emma, and I'm a rising junior at the University of Michigan! <br> 
+							I'm pursuing a B.S in Statistics and a B.S. in Data Science with a focus on 
 							business intelligence and analytics. <br>
-							I love exploring the intersection between data and business and enjoy writing, spending time with friends,
-							playing music and chess in my free time. 
-
+							I love exploring the intersection between data and business, and in my free time, <br> I enjoy writing, 
+							spending time with friends, playing music and chess, F1, and fashion. <br>
+							This portfolio highlights some of these interests ad includes my technical projects, writing, and other projects I want to share. <br>
+							So, if you made it past the home page, welcome! Thanks for exploring! <br>
+							- Emma
+						</bold>
 						</p>
 						<p>
 						<div class="image featured">
 							<img src="images/almond-blossoms-trees.png" alt="Sample">
 						</div>
 						<header>
-							<h3>Dolore Amet Consequat</h3>
+							<h3>Background</h3>
 						</header>
 						<p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo,
 							tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam
@@ -188,16 +203,13 @@
 		<footer id="footer">
 
 			<ul class="icons">
-				<li><a href="#" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a></li>
-				<li><a href="#" class="icon brands circle fa-github"><span class="label">Github</span></a></li>
-				<li><a href="#" class="icon brands circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+				<li><a href="https://www.linkedin.com/in/emma-peng28/" class="icon brands circle fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://www.instagram.com/emmappeng/" class="icon brands circle fa-instagram"><span class="label">Instagram</span></a></li>
 			</ul>
 
 			<ul class="copyright">
-				<li>&copy; Untitled</li>
-				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				<li>&copy;
+				Template Design: <a href="http://html5up.net">HTML5 UP</a></li>
 			</ul>
 
 		</footer>
