@@ -2821,7 +2821,9 @@ button.small,
 #banner.visuals-banner {
 	background: url('images/almond-blossoms.png') no-repeat center center;
 	background-size: cover;
+	animation: fadeIn 1.5s ease-in-out forwards;
 }
+
 
 #banner.visuals-banner .inner {
 	-moz-animation: reveal-banner 1s 0.25s ease-in-out;
@@ -2835,7 +2837,7 @@ button.small,
 	background: rgb(212, 183, 192, 0.5);
 	opacity: 0.5;
 	color: #fff;
-	border: 2px solid #cfbacc;
+	border: 2px solid #c2aeb2;
 	display: inline-block;
 	opacity: 0;
 	padding: 3em;
