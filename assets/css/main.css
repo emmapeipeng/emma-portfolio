@@ -184,7 +184,7 @@ ul.icons li a.icon {
 	margin-top: 5px;
 	margin-bottom: 20px;
 	background: #7f8c8d;
-	color: #d1b2ae;
+	color: #fff;
 	text-decoration: none;
 	border-radius: 2px;
 	font-family: inherit;
@@ -220,15 +220,14 @@ ul.icons li a.icon {
 
 /* On hover, change the inside border color */
 .fancy-button:hover::before {
-	background-color: #636e72;
-	/* Slightly darker gray */
+	background-color: #798485;
 }
 
 .fancy-button:hover {
 	transform: scale(1.05);
 	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 	border: 2px solid transparent;
-	background-image: linear-gradient(45deg, #c2aeb2, #b3b9c2, #b2b7c1, #b7b6c0, #ccacac);
+	background-image: linear-gradient(45deg, #cfbacc, #cfbacc, #d5b8e1, #bca6ba, #d5b8e1);
 	background-clip: padding-box;
 }
 
@@ -2776,6 +2775,7 @@ button.small,
 	animation-fill-mode: forwards;
 	background: rgba(52, 27, 43, 0.5);
 	color: #fff;
+	border: 0.5px solid #e3c3c9;
 	display: inline-block;
 	opacity: 0;
 	padding: 3em;
@@ -2832,9 +2832,10 @@ button.small,
 	-webkit-animation-fill-mode: forwards;
 	-ms-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
-	background: rgba(190, 170, 172, 0.5);
+	background: rgb(212, 183, 192, 0.5);
 	opacity: 0.5;
 	color: #fff;
+	border: 2px solid #cfbacc;
 	display: inline-block;
 	opacity: 0;
 	padding: 3em;

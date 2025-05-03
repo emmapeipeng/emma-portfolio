@@ -21,10 +21,21 @@
 			background-color: #c7aaac;
 			color: white;
 		}
-		
 	</style>
 
-	
+	<style>
+		.fade-in {
+			opacity: 0;
+			animation: fadeIn 1.5s ease-in forwards;
+		}
+
+		@keyframes fadeIn {
+			to {
+				opacity: 1;
+			}
+		}
+	</style>
+
 
 </head>
 
@@ -36,7 +47,8 @@
 			<h1 id="logo"><a href="index.html">Emma Peng's <span>Portfolio</span></a></h1>
 			<nav id="nav">
 				<ul>
-					<li class="current"><a href="about-me.html" id="about-me-link" style="font-weight: 900;">About Me</a></li>
+					<li class="current"><a href="about-me.html" id="about-me-link">About
+							Me</a></li>
 					<li class="submenu">
 						<a href="#">EXPLORE</a>
 						<ul>
@@ -45,7 +57,7 @@
 							<li><a href="right-sidebar.html">Journalism</a></li>
 							<li><a href="no-sidebar.html">Prose, Poems, & Pieces</a></li>
 							<li class="submenu">
-								<a href="#">Academics</a> 
+								<a href="#">Academics</a>
 								<ul>
 									<li><a href="index.html">Coursework</a></li>
 									<li><a href="left-sidebar.html">Experiences</a></li>
@@ -56,7 +68,7 @@
 						</ul>
 					</li>
 					<li><a href="contact.html" class="button primary"
-						style="background-color: #c7aaac; color: white;">Contact</a></li>
+							style="background-color: #c7aaac; color: white;">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -86,128 +98,134 @@
 			"></div>
 
 				<!-- Text content -->
-				<div style="position: relative; z-index: 2;">
-					<h2 style="font-size: 68px; font-weight: bolder;"><strong>ABOUT ME</strong></h2>
-					<h2 style="font-size: 18px;"><b><strong>University of Michigan - 2027 | Statistics & Data Science
-						<br> GRAND RAPIDS, MI
-					</strong></h2></b>
-					
-				</div>
-			</header>
-
-			<!--Header image-->
-
-
-
-			<!-- One -->
-			<section class="wrapper style4 container">
-
-				<!-- Content -->
-				<div class="content">
-					<section>
-						<p style="text-align: center;"> <bold>
-							Hello! My name is Emma, and I'm a rising junior at the University of Michigan! <br> 
-							I'm pursuing a B.S in Statistics and a B.S. in Data Science with a focus on 
-							business intelligence and analytics. <br>
-							I love exploring the intersection between data and business, and in my free time, <br> I enjoy writing, 
-							spending time with friends, playing music and chess, F1, and fashion. <br>
-							This portfolio highlights some of these interests ad includes my technical projects, writing, and other projects I want to share. <br>
-							So, if you made it past the home page, welcome! Thanks for exploring! <br>
-							- Emma
-						</bold>
-						</p>
-						<p>
-						<div class="image featured">
-							<img src="images/almond-blossoms-trees.png" alt="Sample">
-						</div>
-						<header>
-							<h3>Background</h3>
-						</header>
-						<p> </p>
-						<p>Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt
-							pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque
-							ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam
-							eget lobortis purus. Phasellus vitae tortor non est placerat tristique. Sed id sem et massa
-							ornare pellentesque. Maecenas pharetra porta accumsan. </p>
-						<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus.
-							Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in
-							laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus, non
-							hendrerit ipsum arcu tristique est.</p>
-					</section>
+				<div class="fade-in" style="position: relative; z-index: 2;">
+					<h2 style="font-size: 68px; font-weight: bolder;"><b>ABOUT ME</b></h2>
+					<h2 style="font-size: 18px;">
+						<strong>University of Michigan - 2027 | Statistics & Data Science<br>GRAND RAPIDS, MI</strong>
+					</h2>
 				</div>
 
+	</div>
+	</header>
+
+	<!--Header image-->
+
+
+
+	<!-- One -->
+	<section class="wrapper style4 container">
+
+		<!-- Content -->
+		<div class="content">
+			<section>
+				<p style="text-align: center;">
+					<bold>
+						Hello! My name is Emma, and I'm a rising junior at the University of Michigan! <br>
+						I'm pursuing a B.S in Statistics and a B.S. in Data Science with a focus on
+						business intelligence and analytics. <br>
+						I love exploring the intersection between data and business, and in my free time, <br> I enjoy
+						writing,
+						spending time with friends, playing music & chess, and exploring F1 & fashion. <br>
+						This portfolio highlights some of these interests ad includes my technical projects, writing,
+						and other projects I want to share. <br>
+						So, if you made it past the home page, welcome! Thanks for exploring! <br>
+						- Emma
+					</bold>
+				</p>
+				<p>
+				<div class="image featured">
+					<img src="images/almond-blossoms-trees.png" alt="Sample">
+				</div>
+				<header>
+					<h3>Background</h3>
+				</header>
+				<p> </p>
+				<p>Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt
+					pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque
+					ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam
+					eget lobortis purus. Phasellus vitae tortor non est placerat tristique. Sed id sem et massa
+					ornare pellentesque. Maecenas pharetra porta accumsan. </p>
+				<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus.
+					Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in
+					laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus, non
+					hendrerit ipsum arcu tristique est.</p>
 			</section>
+		</div>
 
-			<!-- Two -->
-			<section class="wrapper style1 container special">
-				<div class="row">
-					<div class="col-4 col-12-narrower">
+	</section>
 
-						<section>
-							<header>
-								<h3>This is Something</h3>
-							</header>
-							<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit
-								dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-							<footer>
-								<ul class="buttons">
-									<li><a href="#" class="button small">Learn More</a></li>
-								</ul>
-							</footer>
-						</section>
+	<!-- Two -->
+	<section class="wrapper style1 container special">
+		<div class="row">
+			<div class="col-4 col-12-narrower">
 
-					</div>
-					<div class="col-4 col-12-narrower">
+				<section>
+					<header>
+						<h3>This is Something</h3>
+					</header>
+					<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit
+						dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+					<footer>
+						<ul class="buttons">
+							<li><a href="#" class="button small">Learn More</a></li>
+						</ul>
+					</footer>
+				</section>
 
-						<section>
-							<header>
-								<h3>Also Something</h3>
-							</header>
-							<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit
-								dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-							<footer>
-								<ul class="buttons">
-									<li><a href="#" class="button small">Learn More</a></li>
-								</ul>
-							</footer>
-						</section>
+			</div>
+			<div class="col-4 col-12-narrower">
 
-					</div>
-					<div class="col-4 col-12-narrower">
+				<section>
+					<header>
+						<h3>Also Something</h3>
+					</header>
+					<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit
+						dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+					<footer>
+						<ul class="buttons">
+							<li><a href="#" class="button small">Learn More</a></li>
+						</ul>
+					</footer>
+				</section>
 
-						<section>
-							<header>
-								<h3>Probably Something</h3>
-							</header>
-							<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit
-								dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-							<footer>
-								<ul class="buttons">
-									<li><a href="#" class="button small">Learn More</a></li>
-								</ul>
-							</footer>
-						</section>
+			</div>
+			<div class="col-4 col-12-narrower">
 
-					</div>
-				</div>
-			</section>
+				<section>
+					<header>
+						<h3>Probably Something</h3>
+					</header>
+					<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit
+						dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+					<footer>
+						<ul class="buttons">
+							<li><a href="#" class="button small">Learn More</a></li>
+						</ul>
+					</footer>
+				</section>
 
-		</article>
+			</div>
+		</div>
+	</section>
 
-		<!-- Footer -->
-		<footer id="footer">
+	</article>
 
-			<ul class="icons">
-				<li><a href="https://www.linkedin.com/in/emma-peng28/" class="icon brands circle fa-linkedin"><span class="label">LinkedIn</span></a></li>
-				<li><a href="https://www.instagram.com/emmappeng/" class="icon brands circle fa-instagram"><span class="label">Instagram</span></a></li>
-			</ul>
+	<!-- Footer -->
+	<footer id="footer">
 
-			<ul class="copyright">
-				<li>&copy;
+		<ul class="icons">
+			<li><a href="https://www.linkedin.com/in/emma-peng28/" class="icon brands circle fa-linkedin"><span
+						class="label">LinkedIn</span></a></li>
+			<li><a href="https://www.instagram.com/emmappeng/" class="icon brands circle fa-instagram"><span
+						class="label">Instagram</span></a></li>
+		</ul>
+
+		<ul class="copyright">
+			<li>&copy;
 				Template Design: <a href="http://html5up.net">HTML5 UP</a></li>
-			</ul>
+		</ul>
 
-		</footer>
+	</footer>
 
 	</div>
 
