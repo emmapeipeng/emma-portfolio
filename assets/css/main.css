@@ -2889,7 +2889,7 @@ button.small,
 }
 
 #banner.journalism-banner {
-	background: url('images/almond-blossoms.png') no-repeat center center;
+	background: url('images/almond-blossoms-horizon.png') no-repeat center center;
 	background-size: cover;
 	animation: fadeIn 1.5s ease-in-out forwards;
 }
@@ -2907,7 +2907,7 @@ button.small,
 	background: rgb(167, 180, 194, 0.5);
 	opacity: 0.5;
 	color: #fff;
-	border: 2px solid #839bb7;
+	border: 2px solid #a7b4c2 ;
 	display: inline-block;
 	opacity: 0;
 	padding: 3em;
