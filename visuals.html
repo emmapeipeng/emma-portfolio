@@ -24,80 +24,80 @@
     <title>Alternating Layout</title>
     <style>
         .section {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-bottom: 1em;
-}
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 1em;
+        }
 
-/* For odd sections: Image Left, Text Right */
-.section:nth-child(odd) {
-    flex-direction: row;
-}
+        /* For odd sections: Image Left, Text Right */
+        .section:nth-child(odd) {
+            flex-direction: row;
+        }
 
-/* For even sections: Image Right, Text Left */
-.section:nth-child(even) {
-    flex-direction: row-reverse;
-}
+        /* For even sections: Image Right, Text Left */
+        .section:nth-child(even) {
+            flex-direction: row-reverse;
+        }
 
-.image-container {
-    flex: 3;
-    margin-right: 10px;
-    /* Remove the padding or margin from the container */
-    padding: 0;
-    margin: 0;
-}
+        .image-container {
+            flex: 3;
+            margin-right: 10px;
+            /* Remove the padding or margin from the container */
+            padding: 0;
+            margin: 0;
+        }
 
-.image-container img {
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-    border: 4px solid #697177;
-    margin: 0;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
-    /* Smooth transition for hover effect */
-}
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            border: 4px solid #697177;
+            margin: 0;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+            /* Smooth transition for hover effect */
+        }
 
-/* Hover effect on the image */
-.image-container img:hover {
-    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.65);
-    /* Apply shadow to the image directly */
-    transform: scale(1.05);
-    /* Slight zoom effect on hover */
-    border: 4px solid #697177  ; /* Darker border on hover */
-}
+        /* Hover effect on the image */
+        .image-container img:hover {
+            box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.65);
+            /* Apply shadow to the image directly */
+            transform: scale(1.05);
+            /* Slight zoom effect on hover */
+            border: 4px solid #697177;
+            /* Darker border on hover */
+        }
 
-/* Text container styles */
-.section .text {
-    flex: 2;
-    padding: 1em;
-}
+        /* Text container styles */
+        .section .text {
+            flex: 2;
+            padding: 1em;
+        }
 
-/* For sections with the text on the right (odd sections) */
-.section:nth-child(odd) .text {
-    text-align: right;
-}
+        /* For sections with the text on the right (odd sections) */
+        .section:nth-child(odd) .text {
+            text-align: right;
+        }
 
-/* For sections with the text on the left (even sections) */
-.section:nth-child(even) .text {
-    text-align: left;
-}
+        /* For sections with the text on the left (even sections) */
+        .section:nth-child(even) .text {
+            text-align: left;
+        }
 
-/* Mobile responsiveness: Stack items */
-@media (max-width: 768px) {
-    .section {
-        flex-direction: column !important;
-    }
+        /* Mobile responsiveness: Stack items */
+        @media (max-width: 768px) {
+            .section {
+                flex-direction: column !important;
+            }
 
-    .image-container img {
-        width: 90%;
-    }
+            .image-container img {
+                width: 90%;
+            }
 
-    .section .text {
-        text-align: center;
-    }
-}
-
+            .section .text {
+                text-align: center;
+            }
+        }
     </style>
 </head>
 
@@ -115,9 +115,9 @@
                         <a href="#">EXPLORE</a>
                         <ul>
                             <li><a href="index.html">Analytics & ML</a></li>
-                            <li><a href="visuals.html">Visuals</a></li>
-                            <li><a href="right-sidebar.html">Journalism</a></li>
-                            <li><a href="no-sidebar.html">Prose, Poems, & Pieces</a></li>
+							<li><a href="visuals.html">Visuals</a></li>
+							<li><a href="journalism.html">Journalism</a></li>
+							<li><a href="no-sidebar.html">Prose, Poems, & Pieces</a></li>
                             <li class="submenu">
                                 <a href="#">Academics</a>
                                 <ul>
@@ -173,17 +173,27 @@
                 <div class="row gtr-150">
 
                     <!-- Content -->
+                    <!-- visual.html -->
                     <div class="section">
                         <div class="image-container">
                             <a href="https://example.com" target="_blank">
-                                <img src="images/covid-dashboard.jpeg" alt="Visualization 2" />
+                                <video class="hover-video" muted loop preload="auto" poster="images/monet_lilies.jpg">
+                                    <source src="videos/monet_water_lilies.mp4" type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
                             </a>
                         </div>
                         <div class="text">
-                            <h3>Visualization 2</h3>
-                            <p>This text will stay on the right side, while the image is clickable on the left.</p>
+                            <h3> <strong>
+                                <span style="font-size: 46px;">CLAUDE MONET's</span> <br>
+                                <span style="font-size: 36px;">WATER LILIES</span> </strong>
+                        </h3>
+                            <p>A visual guide to Monet's series of over 250 paintings featuring his beautiful water lilies.
+                                <br> Made in powerpoint. Hover to play.
+                            </p>
                         </div>
                     </div>
+
 
                     <div class="section">
                         <div class="image-container">
@@ -194,10 +204,11 @@
                         </div>
                         <div class="text">
                             <h3> <strong>
-                                <span style="font-size: 50px;">BALLOTPEDIA</span>
-                                <span style="font-size: 36px;">TABLEAU DASHBOARD</span> </strong>
-                              </h3>                          
-                            <p>Visual summary of an analysis on Ballotpedia's 2024 election dataset, with a focus on incumbency's impact
+                                    <span style="font-size: 50px;">BALLOTPEDIA</span>
+                                    <span style="font-size: 36px;">TABLEAU DASHBOARD</span> </strong>
+                            </h3>
+                            <p>Visual summary of an analysis on Ballotpedia's 2024 election dataset, with a focus on
+                                incumbency's impact
                                 on candidate outcomes and cross-analyses between major parties.</p>
                         </div>
                     </div>
@@ -211,10 +222,11 @@
                         </div>
                         <div class="text">
                             <h3> <strong>
-                                <span style="font-size: 50px;">COVID ANALYSIS</span>
-                                <span style="font-size: 36px;">TABLEAU DASHBOARD</span> </strong>
-                              </h3>   
-                            <p>Visual analysis of COVID vaccination rates and trends across the world from 2020-2021.</p>
+                                    <span style="font-size: 50px;">COVID ANALYSIS</span>
+                                    <span style="font-size: 36px;">TABLEAU DASHBOARD</span> </strong>
+                            </h3>
+                            <p>Visual analysis of COVID vaccination rates and trends across the world from 2020-2021.
+                            </p>
                         </div>
                     </div>
 
@@ -250,6 +262,27 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <script>
+        const videos = document.querySelectorAll('.hover-video');
+      
+        videos.forEach(video => {
+          const parent = video.parentElement;
+      
+          parent.addEventListener('mouseenter', () => {
+            video.play();
+          });
+      
+          parent.addEventListener('mouseleave', () => {
+            video.pause();
+            video.currentTime = 0;
+            // Reload the poster frame
+            video.load(); // This shows the poster again
+          });
+        });
+      </script>
+      
+
 
 </body>
 

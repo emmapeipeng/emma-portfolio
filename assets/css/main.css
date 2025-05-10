@@ -237,6 +237,21 @@ ul.icons li a.icon {
 
 /* My fancy buttons*/
 
+/* Video */
+.image-container {
+	width: 300px; /* adjust as needed */
+	overflow: hidden;
+  }
+  
+  .hover-video {
+	width: 100%;
+	height: auto;
+	display: block;
+	object-fit: cover;
+  }
+  
+/* Video */  
+
 
 /* Border image */
 
@@ -2818,6 +2833,35 @@ button.small,
 	margin: 2em 0 0 0;
 }
 
+#banner.project-banner {
+    background: none;
+    animation: fadeIn 1.5s ease-in-out forwards;
+    padding: 0;
+    margin: 0;
+	margin-bottom: 4em;
+    height: auto;
+    min-height: 0;
+}
+
+
+#banner.project-banner .inner {
+    -moz-animation: reveal-banner 1s 0.25s ease-in-out;
+    -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+    -ms-animation: reveal-banner 1s 0.25s ease-in-out;
+    animation: reveal-banner 1s 0.25s ease-in-out;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    background: #c7aaac; /* Keeps the background color with transparency */
+    opacity: 0.5;
+    color: #fff;
+    border: 2px solid #c2aeb2;
+    display: inline-block;
+    padding: 3em;
+    text-align: center;
+}
+
 #banner.visuals-banner {
 	background: url('images/almond-blossoms.png') no-repeat center center;
 	background-size: cover;
@@ -2843,6 +2887,33 @@ button.small,
 	padding: 3em;
 	text-align: center;
 }
+
+#banner.journalism-banner {
+	background: url('images/almond-blossoms.png') no-repeat center center;
+	background-size: cover;
+	animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+
+#banner.journalism-banner .inner {
+	-moz-animation: reveal-banner 1s 0.25s ease-in-out;
+	-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+	-ms-animation: reveal-banner 1s 0.25s ease-in-out;
+	animation: reveal-banner 1s 0.25s ease-in-out;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	background: rgb(167, 180, 194, 0.5);
+	opacity: 0.5;
+	color: #fff;
+	border: 2px solid #839bb7;
+	display: inline-block;
+	opacity: 0;
+	padding: 3em;
+	text-align: center;
+}
+
   
   
 
