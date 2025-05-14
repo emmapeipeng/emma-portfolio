@@ -2856,7 +2856,7 @@ button.small,
     background: #c7aaac; /* Keeps the background color with transparency */
     opacity: 0.5;
     color: #fff;
-    border: 2px solid #c2aeb2;
+    border: 6px solid #e3c3c9;
     display: inline-block;
     padding: 3em;
     text-align: center;
