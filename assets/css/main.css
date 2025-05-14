@@ -2914,6 +2914,32 @@ button.small,
 	text-align: center;
 }
 
+#banner.academics-banner {
+	background: url('images/almond-blossoms-golden.png') no-repeat center center;
+	background-size: cover;
+	animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+
+#banner.academics-banner .inner {
+	-moz-animation: reveal-banner 1s 0.25s ease-in-out;
+	-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+	-ms-animation: reveal-banner 1s 0.25s ease-in-out;
+	animation: reveal-banner 1s 0.25s ease-in-out;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	background: rgb(252, 216, 166, 0.5);
+	opacity: 0.5;
+	color: #fff;
+	border: 2px solid #fcd8a6  ;
+	display: inline-block;
+	opacity: 0;
+	padding: 3em;
+	text-align: center;
+}
+
   
   
 
