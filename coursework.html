@@ -74,9 +74,10 @@
             <header class="special container">
                 <span class="icon solid fa-school"></span>
                 <h2>
-                    <strong> My </strongMy><span style="font-size: 38px; font-weight: bold;"> ACADEMIC CLASSWORK & EXTRACURRICULARS</span> <strong> </strong>
+                    <strong> My </strongMy><span style="font-size: 38px; font-weight: bold;"> ACADEMIC WORK &
+                            EXTRACURRICULARS</span> <strong> </strong>
                         <br />
-                        <span style="font-size: 26px;">My Coursework 
+                        <span style="font-size: 26px;">My Coursework
                         </span>
                 </h2>
                 <p>
@@ -85,29 +86,129 @@
                 </p>
             </header>
             </header>
-            
+
             <section class="container">
-    <iframe src="assets/resume.pdf" width="100%" height="800px" style="border: none;"></iframe>
-</section>
+                <div class="course-grid">
+                    <div class="course-card">
+                        <h3>EECS 281: Data Structures & Algorithms</h3>
+                        <p class="course-description"> Algorithm analysis and O-notation; fundamental data structures
+                            and searching & sorting algorithms; implemented major programs</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>TO 414: Advanced Analytics in Management Consulting</h3>
+                        <p class="course-description">Applied advanced data analytics to solve complex business & financial problems;
+                            data visualization, data slicing, forecasting, classification, etc</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>DATASCI 306: Statistics Computing</h3>
+                        <p class="course-description">R programming and statistical computing techniques applied to data extraction & 
+                            manipulation, statistical processing, and visualization.</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>STATS 425: Probability</h3>
+                        <p class="course-description">Combinatorics, conditional probability, Bayes’ theorem, 
+                            discrete and continuous distributions, expectation, and variance</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>EECS 280: Programming & Introductory Data Structures</h3>
+                        <p class="course-description">Algorithm development and effective programming, top-down analysis, 
+                            structured programming, testing, and program correctness.</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>EECS 203: Discrete Mathematics</h3>
+                        <p class="course-description">prepositional and predicate logic, set theory, function and relations, 
+                            growth of functions and asymptotic notation, intro to algorithms, graph theory</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>EECS 183: Elementary Programming Concepts</h3>
+                        <p class="course-description">Flow of control, data structures, algorithms using selection and iteration 
+                            (decision making, searching, sorting, simulation, etc.)</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>MATH 215: Multivariable & Vector Calculus</h3>
+                        <p class="course-description">Vector algebra &  functions, analytic geometry of planes,
+                            partial differentiation; integrals and applications, vector fields</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>MATH 214: Applied Linear Algebra</h3>
+                        <p class="course-description">Matrices and linear algebra, with an emphasis on concepts and problem solving</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>STATS 250: Intro to Statistics & Data Analysis</h3>
+                        <p class="course-description">Frequency distributions, graphic presentation; elementary probability, sampling distributions,
+                            regression, correlation, analysis of variance</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>PUBPOL 475: Leadership</h3>
+                        <p class="course-description">Set tone, focus, and direction for an organization, its members, and stakeholders,
+                            navigate & shape dynamic organizational environments
+                        </p>
+                    </div>
+                    <div class="course-card">
+                        <h3>ECON 101: Economic Principles I</h3>
+                        <p class="course-description">Focus on microeconomics, how markets function,
+                            distribution of wealth, the public sector, international trade, and environmental economics</p>
+                    </div>
+                    <!-- Add more courses as needed -->
+                </div>
+            </section>
+
+            <style>
+                .course-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                    gap: 2rem;
+                    padding: 2rem 0;
+                }
+
+                .course-card {
+                    position: relative;
+                    background: #f9f9f9;
+                    padding: 1.5rem;
+                    border-radius: 12px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.2s ease, background-color 0.3s;
+                    cursor: pointer;
+                }
+
+                .course-card:hover {
+                    transform: translateY(-6px);
+                    background-color: #c7aaac;
+                    color: white;
+                }
+
+                .course-card .course-description {
+                    opacity: 0;
+                    max-height: 0;
+                    transition: opacity 0.3s, max-height 0.3s;
+                    overflow: hidden;
+                    margin-top: 1rem;
+                }
+
+                .course-card:hover .course-description {
+                    opacity: 1;
+                    max-height: 150px;
+                    /* Adjust if needed */
+                }
+            </style>
 
 
-            
-        <!-- Footer -->
-        <footer id="footer">
+            <!-- Footer -->
+            <footer id="footer">
 
-            <ul class="icons">
-                <li><a href="https://www.linkedin.com/in/emma-peng28/" class="icon brands circle fa-linkedin"><span
-                            class="label">LinkedIn</span></a></li>
-                <li><a href="https://www.instagram.com/emmappeng/" class="icon brands circle fa-instagram"><span
-                            class="label">Instagram</span></a></li>
-            </ul>
+                <ul class="icons">
+                    <li><a href="https://www.linkedin.com/in/emma-peng28/" class="icon brands circle fa-linkedin"><span
+                                class="label">LinkedIn</span></a></li>
+                    <li><a href="https://www.instagram.com/emmappeng/" class="icon brands circle fa-instagram"><span
+                                class="label">Instagram</span></a></li>
+                </ul>
 
-            <ul class="copyright">
-                <li>&copy;
-                    Template Design: <a href="http://html5up.net">HTML5 UP</a></li>
-            </ul>
+                <ul class="copyright">
+                    <li>&copy;
+                        Template Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
 
-        </footer>
+            </footer>
 
     </div>
 
