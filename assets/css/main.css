@@ -2940,7 +2940,31 @@ button.small,
 	text-align: center;
 }
 
-  
+#banner.prose-banner {
+	background: url('images/almond-blossoms-lakeshore.png') no-repeat center center;
+	background-size: cover;
+	animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+
+#banner.prose-banner .inner {
+	-moz-animation: reveal-banner 1s 0.25s ease-in-out;
+	-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+	-ms-animation: reveal-banner 1s 0.25s ease-in-out;
+	animation: reveal-banner 1s 0.25s ease-in-out;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	background: rgb(170, 163, 169, 0.5);
+	opacity: 0.5;
+	color: #fff;
+	border: 2px solid #aaa3a9;
+	display: inline-block;
+	opacity: 0;
+	padding: 3em;
+	text-align: center;
+}
   
 
 /* Main */
