@@ -21,6 +21,34 @@
             color: white;
         }
     </style>
+
+<!--Legend styling -->
+    <style>
+  .legend {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 20px;
+    flex-wrap: wrap; 
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .legend-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px; 
+    display: inline-block;
+    margin-right: 8px;
+  }
+</style>
+
+
 </head>
 
 <body class="right-sidebar is-preload">
@@ -86,6 +114,23 @@
                 </p>
             </header>
             </header>
+
+<div class="legend">
+  <div class="legend-item">
+    <span class="legend-color" style="background-color: #c7aaac;"></span> TECHNICAL
+  </div>
+  <div class="legend-item">
+    <span class="legend-color" style="background-color: #839bb7;"></span> BUSINESS
+  </div>
+  <div class="legend-item">
+    <span class="legend-color" style="background-color: #cf8f90;"></span> HUMANITIES
+  </div>
+  <div class="legend-item">
+    <span class="legend-color" style="background-color: #88aa8a;"></span> NATURAL SCIENCES
+  </div>
+</div>
+
+
 
             <section class="container">
                 <div class="course-grid">
