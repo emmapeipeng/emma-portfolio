@@ -18,6 +18,10 @@
 	<head>
 		<link rel="stylesheet" href="main.css">
 	</head>
+
+	<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+
 </head>
 
 <body class="index is-preload">
@@ -30,23 +34,23 @@
 				<ul>
 					<li class="current"><a href="about-me.html">About Me</a></li>
 					<li class="submenu">
-                        <a href="#">EXPLORE</a>
-                        <ul>
-                            <li><a href="index.html">Analytics & ML</a></li>
-                            <li><a href="visuals.html">Visuals</a></li>
-                            <li><a href="journalism.html">Journalism</a></li>
-                            <li><a href="prose.html">Prose, Poems, & Pieces</a></li>
-                            <li class="submenu">
-                                <a href="#">Academics:</a>
-                                <ul>
-                                    <li><a href="coursework.html">Coursework</a></li>
-                                    <li><a href="experiences.html">Experiences</a></li>
-                                    <li><a href="resume.html">Resume</a></li>
+						<a href="#">EXPLORE</a>
+						<ul>
+							<li><a href="index.html">Analytics & ML</a></li>
+							<li><a href="visuals.html">Visuals</a></li>
+							<li><a href="journalism.html">Journalism</a></li>
+							<li><a href="prose.html">Prose, Poems, & Pieces</a></li>
+							<li class="submenu">
+								<a href="#">Academics:</a>
+								<ul>
+									<li><a href="coursework.html">Coursework</a></li>
+									<li><a href="experiences.html">Experiences</a></li>
+									<li><a href="resume.html">Resume</a></li>
 
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
+								</ul>
+							</li>
+						</ul>
+					</li>
 					<li><a href="contact.html" class="button primary"
 							style="background-color: #c7aaac; color: white;">Contact</a></li>
 				</ul>
@@ -69,11 +73,10 @@
 				</header>
 				<p>
 					<span style="font-size: 20px;">My <strong>work, ideas, whims</strong></span><br />
-					<span style="font-size: 20px;">Data | Business | Analytics | Journalism | Prose | Music</span><br />
+					<span style="font-size: 20px;">Data | Business | Journalism | Prose | Music</span><br />
 					<span style="font-size: 16px;">
-						<a href="https://github.com/emmapeipeng">GitHub</a> |
 						<a href="https://www.linkedin.com/in/emma-peng28/">LinkedIn</a> |
-						<a href="https://www.instagram.com/emmappeng/">Instagram</a>.
+						<a href="https://github.com/emmapeipeng">GitHub</a>
 					</span>
 				</p>
 				<footer>
@@ -100,7 +103,7 @@
 				</h2>
 				<p>
 					My side projects that I've done for fun outside of class.
-					<br> 
+					<br>
 				</p>
 				</p>
 			</header>
@@ -118,218 +121,226 @@
 						</div>
 					</section>
 
-				<div class="row">
-					<div class="col-6 col-12-narrower">
+					<div class="row">
+						<div class="col-6 col-12-narrower">
 
-						<section>
-							<a href="https://github.com/emmapeipeng/projects/blob/main/predictive_modeling.Rmd"
-								class="image featured">
-								<img src="images/ballotpedia.jpg" alt="" />
-							</a>
-							<header>
-								<h3>
-									<p style="font-size: 16px; margin-bottom: 1px;">April 27th, 2025</p>
-									<span style="font-size: 30px;"><strong>Predicting Election Outcomes:
-										</strong><br></span>
-									<span style="font-size: 20px;"><b>R ML | Stacked Model</b></span>
-								</h3>
-							</header>
-							<p>Predicting wins and losses using Ballotpedia's 2024 election dataset.
-								Two-layer model using Logistic Regression, Kth Nearest Neighbor, Support Vector Machine,
-								Neural Network,
-								& Decision Tree
+							<section>
+								<a href="https://github.com/emmapeipeng/projects/blob/main/predictive_modeling.Rmd"
+									class="image featured">
+									<img src="images/ballotpedia.jpg" alt="" />
+								</a>
+								<header>
+									<h3>
+										<p style="font-size: 16px; margin-bottom: 1px;">April 27th, 2025</p>
+										<span style="font-size: 30px;"><strong>Predicting Election Outcomes:
+											</strong><br></span>
+										<span style="font-size: 20px;"><b>R ML | Stacked Model</b></span>
+									</h3>
+								</header>
+								<p>Predicting wins and losses using Ballotpedia's 2024 election dataset.
+									Two-layer model using Logistic Regression, Kth Nearest Neighbor, Support Vector
+									Machine,
+									Neural Network,
+									& Decision Tree
 
-							</p>
+								</p>
 
-							<!-- Button goes here -->
-							<a href="https://github.com/emmapeipeng/projects/blob/main/predictive_modeling.Rmd"
+								<!-- Button goes here -->
+								<a href="https://github.com/emmapeipeng/projects/blob/main/predictive_modeling.Rmd"
+									class="fancy-button">
+									<span>VIEW PROJECT</span>
+								</a>
+
+							</section>
+
+						</div>
+						<div class="col-6 col-12-narrower">
+
+							<section>
+								<a href="https://github.com/emmapeipeng/projects/blob/main/company_layoffs_analysis.sql"
+									class="image featured">
+									<img src="images/download.jpg" alt="" /></a>
+								<header>
+									<h3>
+										<p style="font-size: 16px; margin-bottom: 1px;">August 20th, 2024</p>
+										<span style="font-size: 30px;"><strong>Layoff & Employment <br>Rates:
+											</strong><br></span>
+										<span style="font-size: 20px;"><b>SQL Analysis</b></span>
+									</h3>
+								</header>
+								<p>Finding trends in layoff and employment rates starting from COVID in MySQL. Use of
+									CTEs and rolling totals
+									for various analyses in top companies' hiring & firing behaviors.
+								</p>
+							</section>
+
+							<a href="https://github.com/emmapeipeng/projects/blob/main/company_layoffs_analysis.sql"
 								class="fancy-button">
 								<span>VIEW PROJECT</span>
 							</a>
 
-						</section>
-
+						</div>
 					</div>
-					<div class="col-6 col-12-narrower">
+					<div class="row">
+						<div class="col-6 col-12-narrower">
 
-						<section>
-							<a href="https://github.com/emmapeipeng/projects/blob/main/company_layoffs_analysis.sql"
-								class="image featured">
-								<img src="images/download.jpg" alt="" /></a>
-							<header>
-								<h3>
-									<p style="font-size: 16px; margin-bottom: 1px;">August 20th, 2024</p>
-									<span style="font-size: 30px;"><strong>Layoff & Employment <br>Rates: </strong><br></span>
-									<span style="font-size: 20px;"><b>SQL Analysis</b></span>
-								</h3>
-							</header>
-							<p>Finding trends in layoff and employment rates starting from COVID in MySQL. Use of CTEs and rolling totals
-								for various analyses in top companies' hiring & firing behaviors.  
-							</p>
-						</section>
+							<section>
+								<a href="https://github.com/emmapeipeng/projects/blob/main/ml_stock_market.ipynb"
+									class="image featured">
+									<img src="images/stocks.jpg" alt="" /></a>
+								<header>
+									<h3>
+										<p style="font-size: 16px; margin-bottom: 1px;">August 9th, 2024</p>
+										<span style="font-size: 30px;"><strong>Stock Market
+												Predictor</strong><br></span>
+										<span style="font-size: 20px;"><b>Python ML | Random Forest</b></span>
+									</h3>
+								</header>
+								<p> The classic portfolio project. A simple stock market predictor made in python
+									using Yahoo Finance for data and RandomForestClassifier for model.
 
-						<a href="https://github.com/emmapeipeng/projects/blob/main/company_layoffs_analysis.sql"
-							class="fancy-button">
-							<span>VIEW PROJECT</span>
-						</a>
+								</p>
+							</section>
 
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-6 col-12-narrower">
-
-						<section>
 							<a href="https://github.com/emmapeipeng/projects/blob/main/ml_stock_market.ipynb"
-								class="image featured">
-								<img src="images/stocks.jpg" alt="" /></a>
-							<header>
-								<h3>
-									<p style="font-size: 16px; margin-bottom: 1px;">August 9th, 2024</p>
-									<span style="font-size: 30px;"><strong>Stock Market Predictor</strong><br></span>
-									<span style="font-size: 20px;"><b>Python ML | Random Forest</b></span>
-								</h3>
-							</header>
-							<p> The classic portfolio project. A simple stock market predictor made in python
-								using Yahoo Finance for data and RandomForestClassifier for model. 
+								class="fancy-button">
+								<span>VIEW PROJECT</span>
+							</a>
 
-							</p>
-						</section>
+						</div>
+						<div class="col-6 col-12-narrower">
 
-						<a href="https://github.com/emmapeipeng/projects/blob/main/ml_stock_market.ipynb"
-							class="fancy-button">
-							<span>VIEW PROJECT</span>
-						</a>
+							<section>
+								<a href="https://github.com/emmapeipeng/projects/blob/main/ml_olympics.ipynb"
+									class="image featured">
+									<img src="images/medals.jpeg" alt="" /></a>
+								<header>
+									<h3>
+										<p style="font-size: 16px; margin-bottom: 1px;">July 6th, 2024</p>
+										<span style="font-size: 30px;"><strong>Summer Olympics Medal
+												Counts</strong><br></span>
+										<span style="font-size: 20px;"><b>Python ML| Regression</b></span>
+									</h3>
+								</header>
+								<p> In celebration of the Paris 2024 Summer Olympics. Linear regression for predicting
+									number of medals won
+									from each country. Data from 1984 to 2016 Summer Olympics.
 
-					</div>
-					<div class="col-6 col-12-narrower">
+								</p>
+							</section>
 
-						<section>
 							<a href="https://github.com/emmapeipeng/projects/blob/main/ml_olympics.ipynb"
-								class="image featured">
-								<img src="images/medals.jpeg" alt="" /></a>
-							<header>
-								<h3>
-									<p style="font-size: 16px; margin-bottom: 1px;">July 6th, 2024</p>
-									<span style="font-size: 30px;"><strong>Summer Olympics Medal
-											Counts</strong><br></span>
-									<span style="font-size: 20px;"><b>Python ML| Regression</b></span>
-								</h3>
-							</header>
-							<p> In celebration of the Paris 2024 Summer Olympics. Linear regression for predicting number of medals won
-								from each country. Data from 1984 to 2016 Summer Olympics.
+								class="fancy-button">
+								<span>VIEW PROJECT</span>
+							</a>
 
-							</p>
-						</section>
+						</div>
 
-						<a href="https://github.com/emmapeipeng/projects/blob/main/ml_olympics.ipynb"
-							class="fancy-button">
-							<span>VIEW PROJECT</span>
-						</a>
+						<div class="col-6 col-12-narrower">
 
-					</div>
+							<section>
+								<a href="https://github.com/emmapeipeng/projects/blob/main/ml_california_housing.ipynb"
+									class="image featured">
+									<img src="images/housing.jpeg" alt="" /></a>
+								<header>
+									<h3>
+										<p style="font-size: 16px; margin-bottom: 1px;">July 5th, 2024</p>
+										<span style="font-size: 30px;"><strong>Predicting California Housing Prices
+											</strong><br></span>
+										<span style="font-size: 20px;"><b>Python ML| Regression & Random
+												Forest</b></span>
+									</h3>
+								</header>
+								<p> Finding impacful predictors for Cali housing prices. Random Forest best score of
+									0.79.
 
-					<div class="col-6 col-12-narrower">
+								</p>
+							</section>
 
-						<section>
 							<a href="https://github.com/emmapeipeng/projects/blob/main/ml_california_housing.ipynb"
-								class="image featured">
-								<img src="images/housing.jpeg" alt="" /></a>
-							<header>
-								<h3>
-									<p style="font-size: 16px; margin-bottom: 1px;">July 5th, 2024</p>
-									<span style="font-size: 30px;"><strong>Predicting California Housing Prices
-										</strong><br></span>
-									<span style="font-size: 20px;"><b>Python ML| Regression & Random Forest</b></span>
-								</h3>
-							</header>
-							<p> Finding impacful predictors for Cali housing prices. Random Forest best score of 0.79. 
+								class="fancy-button">
+								<span>VIEW PROJECT</span>
+							</a>
 
-							</p>
-						</section>
+						</div>
 
-						<a href="https://github.com/emmapeipeng/projects/blob/main/ml_california_housing.ipynb"
-							class="fancy-button">
-							<span>VIEW PROJECT</span>
-						</a>
+						<div class="col-6 col-12-narrower">
 
-					</div>
+							<section>
+								<a href="https://github.com/emmapeipeng/projects/blob/main/eda_world_population.ipynb"
+									class="image featured">
+									<img src="images/population.jpg" alt="" /></a>
+								<header>
+									<h3>
+										<p style="font-size: 16px; margin-bottom: 1px;">June 30th, 2024</p>
+										<span style="font-size: 30px;"><strong>World Population <br> Analysis
+											</strong><br></span>
+										<span style="font-size: 20px;"><b>Python EDA | pandas, numpy,
+												matplotlib</b></span>
+									</h3>
+								</header>
+								<p> Analysis on world population statistics using popular Python libraries. <br>
+								</p>
+							</section>
 
-					<div class="col-6 col-12-narrower">
-
-						<section>
 							<a href="https://github.com/emmapeipeng/projects/blob/main/eda_world_population.ipynb"
-								class="image featured">
-								<img src="images/population.jpg" alt="" /></a>
-							<header>
-								<h3>
-									<p style="font-size: 16px; margin-bottom: 1px;">June 30th, 2024</p>
-									<span style="font-size: 30px;"><strong>World Population <br> Analysis
-										</strong><br></span>
-									<span style="font-size: 20px;"><b>Python EDA | pandas, numpy, matplotlib</b></span>
-								</h3>
-							</header>
-							<p> Analysis on world population statistics using popular Python libraries. <br>
-							</p>
-						</section>
+								class="fancy-button">
+								<span>VIEW PROJECT</span>
+							</a>
 
-						<a href="https://github.com/emmapeipeng/projects/blob/main/eda_world_population.ipynb"
-							class="fancy-button">
-							<span>VIEW PROJECT</span>
-						</a>
+						</div>
 
-					</div>
+						<div class="col-6 col-12-narrower">
 
-					<div class="col-6 col-12-narrower">
+							<section>
+								<a href="https://github.com/emmapeipeng/projects/blob/main/eda_cricket_players.ipynb"
+									class="image featured">
+									<img src="images/cricket.jpeg" alt="" /></a>
+								<header>
+									<h3>
+										<p style="font-size: 16px; margin-bottom: 1px;">June 27th, 2024</p>
+										<span style="font-size: 30px;"><strong>Cricket Players<br> Analysis
+											</strong><br></span>
+										<span style="font-size: 20px;"><b>Python EDA | pandas</b></span>
+									</h3>
+								</header>
+								<p> A pandas-focused deep analysis on cricket players.
+								</p>
+							</section>
 
-						<section>
 							<a href="https://github.com/emmapeipeng/projects/blob/main/eda_cricket_players.ipynb"
-								class="image featured">
-								<img src="images/cricket.jpeg" alt="" /></a>
-							<header>
-								<h3>
-									<p style="font-size: 16px; margin-bottom: 1px;">June 27th, 2024</p>
-									<span style="font-size: 30px;"><strong>Cricket Players<br> Analysis
-										</strong><br></span>
-									<span style="font-size: 20px;"><b>Python EDA | pandas</b></span>
-								</h3>
-							</header>  
-							<p> A pandas-focused deep analysis on cricket players. 
-							</p>
-						</section>
+								class="fancy-button">
+								<span>VIEW PROJECT</span>
+							</a>
 
-						<a href="https://github.com/emmapeipeng/projects/blob/main/eda_cricket_players.ipynb"
-							class="fancy-button">
-							<span>VIEW PROJECT</span>
-						</a>
+						</div>
 
-					</div>
+						<div class="col-6 col-12-narrower">
 
-					<div class="col-6 col-12-narrower">
+							<section>
+								<a href="https://github.com/emmapeipeng/projects/blob/main/eda_roller_coasters.ipynb"
+									class="image featured">
+									<img src="images/roller_coasters.jpeg" alt="" /></a>
+								<header>
+									<h3>
+										<p style="font-size: 16px; margin-bottom: 1px;">June 30th, 2024</p>
+										<span style="font-size: 30px;"><strong>Roller Coasters<br> Analysis
+											</strong><br></span>
+										<span style="font-size: 20px;"><b>Python EDA | pandas</b></span>
+									</h3>
+								</header>
+								<p>First project! Basic introduction analysis using pandas.<br>
+								</p>
+							</section>
 
-						<section>
 							<a href="https://github.com/emmapeipeng/projects/blob/main/eda_roller_coasters.ipynb"
-								class="image featured">
-								<img src="images/roller_coasters.jpeg" alt="" /></a>
-							<header>
-								<h3>
-									<p style="font-size: 16px; margin-bottom: 1px;">June 30th, 2024</p>
-									<span style="font-size: 30px;"><strong>Roller Coasters<br> Analysis
-										</strong><br></span>
-									<span style="font-size: 20px;"><b>Python EDA | pandas</b></span>
-								</h3>
-							</header>
-							<p>First project! Basic introduction analysis using pandas.<br>
-							</p>
-						</section>
+								class="fancy-button">
+								<span>VIEW PROJECT</span>
+							</a>
 
-						<a href="https://github.com/emmapeipeng/projects/blob/main/eda_roller_coasters.ipynb"
-							class="fancy-button">
-							<span>VIEW PROJECT</span>
-						</a>
+						</div>
 
 					</div>
-
-				</div>
 				</body>
 
 		</article>
@@ -338,14 +349,28 @@
 		<section id="cta">
 
 			<header>
-				<h2>Ready to do <strong>something</strong>?</h2>
-				<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
+				<h2>End of the page, not the <strong>story</strong></h2>
+				<p>I love creating stories & designing worlds. If you've scrolled this far,
+					why not venture further? <br>
+					This took too many hours of design for it to go unexplored lol
+				</p>
 			</header>
 			<footer>
 				<ul class="buttons">
-					<li><a href="#" class="button primary">Take My Money</a></li>
-					<li><a href="#" class="button">LOL Wut</a></li>
+					<li><a href="#" id="thanks-button" class="button primary">Thanks for scrolling</a></li>
+					<li><a href="#" id='hire-button' class="button">hire me (please)</a></li>
 				</ul>
+
+				<div id="popup" class="popup">
+					<div class="popup-content">
+						<span id="close-popup" class="close">&times;</span>
+						<h2><strong>Let's Connect!</strong></h2>
+						<p>In all seriousness, I'm always looking for opportunities to 
+							work on cool projects. 
+							Feel free to <a href="contact.html">contact me</a> :) </p>
+					</div>
+				</div>
+
 			</footer>
 
 		</section>
@@ -378,6 +403,51 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+
+
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			const thanksBtn = document.getElementById('thanks-button');
+
+			thanksBtn.addEventListener('click', (event) => {
+				event.preventDefault();
+
+				confetti({
+					particleCount: 150,
+					spread: 70,
+					origin: { y: 0.6 },
+					colors: ['#cf8f90', '#DCC1F0', '#A0CCFF', '#F3CDE7', '#FEE2AB']
+				});
+
+
+
+			});
+		});
+	</script>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			const hireBtn = document.getElementById('hire-button');
+			const popup = document.getElementById('popup');
+			const closeBtn = document.getElementById('close-popup');
+
+			hireBtn.addEventListener('click', (e) => {
+				e.preventDefault();
+				popup.style.display = 'block';
+			});
+
+			closeBtn.addEventListener('click', () => {
+				popup.style.display = 'none';
+			});
+
+			window.addEventListener('click', (e) => {
+				if (e.target === popup) {
+					popup.style.display = 'none';
+				}
+			});
+		});
+	</script>
+
 
 </body>
 
