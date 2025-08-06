@@ -150,7 +150,7 @@
 
             <header class="special container">
                 <span class="icon solid fa-chart-pie"></span>
-            
+
                 <h2>
                     <strong> My </strongMy><span style="font-size: 38px; font-weight: bold;"> visual
                             storytelling</span> <strong> projects </strong>
@@ -161,7 +161,7 @@
                 </h2>
                 <p>
                     Visual projects that communicate trends & insights and provide an aesthetic touch
-                    in impactful storytelling. 
+                    in impactful storytelling.
                 </p>
                 </p>
             </header>
@@ -176,18 +176,21 @@
                     <div class="section">
                         <div class="image-container">
                             <a href="https://example.com" target="_blank">
-                                <video class="hover-video" muted loop preload="auto" poster="images/monet_lilies.jpg">
+                                <video class="hover-video" muted loop preload="auto" playsinline
+                                    poster="images/monet_lilies.jpg">
                                     <source src="videos/monet_water_lilies.mp4" type="video/mp4" />
                                     Your browser does not support the video tag.
                                 </video>
+
                             </a>
                         </div>
                         <div class="text">
                             <h3> <strong>
-                                <span style="font-size: 46px;">CLAUDE MONET's</span> <br>
-                                <span style="font-size: 36px;">WATER LILIES</span> </strong>
-                        </h3>
-                            <p>A visual guide to Monet's series of over 250 paintings featuring his beautiful water lilies.
+                                    <span style="font-size: 46px;">CLAUDE MONET's</span> <br>
+                                    <span style="font-size: 36px;">WATER LILIES</span> </strong>
+                            </h3>
+                            <p>A visual guide to Monet's series of over 250 paintings featuring his beautiful water
+                                lilies.
                                 <br> Made in powerpoint. Hover to play.
                             </p>
                         </div>
@@ -264,24 +267,22 @@
 
     <script>
         const videos = document.querySelectorAll('.hover-video');
-      
-        videos.forEach(video => {
-          const parent = video.parentElement;
-      
-          parent.addEventListener('mouseenter', () => {
-            video.play();
-          });
-      
-          parent.addEventListener('mouseleave', () => {
-            video.pause();
-            video.currentTime = 0;
-            // Reload the poster frame
-            video.load(); // This shows the poster again
-          });
-        });
-      </script>
-      
 
+        videos.forEach(video => {
+            const parent = video.parentElement;
+
+            parent.addEventListener('mouseenter', () => {
+                video.play();
+            });
+
+            parent.addEventListener('mouseleave', () => {
+                video.pause();
+                video.currentTime = 0;
+                // Reload the poster frame
+                video.load(); // This shows the poster again
+            });
+        });
+    </script>
 
 </body>
 
