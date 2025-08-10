@@ -2131,16 +2131,25 @@ input[type="email"] {
 }
 
 .popup-content {
-  background-color: #839bb7;
-color: #fff;
-  margin: 15% auto; /* Center vertically & horizontally */
+  background-color: #c7aaac;
+  color: #fff;
+  margin: 15% auto;
   padding: 20px;
   border-radius: 8px;
   width: 90%;
   max-width: 400px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'lato', sans-serif;
+  font-weight: 300;
+  border: 8px solid #fff
+}
+
+/* Popup 1 specific styles */
+#popup1 .popup-content {
+  background-color: #839bb7; 
+font-family: 'lato', sans-serif;
+font-weight: 300;
   border: 3px solid #fff
 }
 
