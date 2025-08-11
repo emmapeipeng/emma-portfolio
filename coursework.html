@@ -22,31 +22,31 @@
         }
     </style>
 
-<!--Legend styling -->
+    <!--Legend styling -->
     <style>
-  .legend {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center; 
-    margin-top: 20px;
-    flex-wrap: wrap; 
-  }
+        .legend {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
 
-  .legend-item {
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-  }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+        }
 
-  .legend-color {
-    width: 16px;
-    height: 16px;
-    border-radius: 3px; 
-    display: inline-block;
-    margin-right: 8px;
-  }
-</style>
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 3px;
+            display: inline-block;
+            margin-right: 8px;
+        }
+    </style>
 
 
 </head>
@@ -115,81 +115,33 @@
             </header>
             </header>
 
-<div class="legend">
-  <div class="legend-item">
-    <span class="legend-color" style="background-color: #c7aaac;"></span> TECHNICAL
-  </div>
-  <div class="legend-item">
-    <span class="legend-color" style="background-color: #839bb7;"></span> BUSINESS
-  </div>
-  <div class="legend-item">
-    <span class="legend-color" style="background-color: #cf8f90;"></span> HUMANITIES
-  </div>
-  <div class="legend-item">
-    <span class="legend-color" style="background-color: #88aa8a;"></span> NATURAL SCIENCES
-  </div>
-</div>
+            <div class="legend">
+                <div class="legend-item">
+                    <span class="legend-color" style="background-color: #c7aaac;"></span> TECH
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background-color: #839bb7;"></span> MATH
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background-color: #bca6ba;"></span> BUSINESS
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background-color: #cf8f90;"></span> HUMANITIES
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background-color: #c2aeb2;"></span> SOCIAL SCIENCES
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background-color: #88aa8a;"></span> NATURAL SCIENCES
+                </div>
+            </div>
 
 
 
             <section class="container">
                 <div class="course-grid">
-                    <div class="course-card">
-                        <h3>EECS 281: Data Structures & Algorithms</h3>
-                        <p class="course-description"> Algorithm analysis and O-notation; fundamental data structures
-                            and searching & sorting algorithms; implemented major programs</p>
-                    </div>
-                    <div class="course-card business">
-                        <h3>TO 414: Advanced Analytics in Management Consulting</h3>
-                        <p class="course-description">Applied advanced data analytics to solve complex business &
-                            financial problems;
-                            data visualization, data slicing, forecasting, classification, etc</p>
-                    </div>
-                    <div class="course-card">
-                        <h3>DATASCI 306: Statistics Computing</h3>
-                        <p class="course-description">R programming and statistical computing techniques applied to data
-                            extraction &
-                            manipulation, statistical processing, and visualization.</p>
-                    </div>
-                    <div class="course-card">
-                        <h3>STATS 425: Probability</h3>
-                        <p class="course-description">Combinatorics, conditional probability, Bayes’ theorem,
-                            discrete and continuous distributions, expectation, and variance</p>
-                    </div>
-                    <div class="course-card">
-                        <h3>EECS 280: Programming & Introductory Data Structures</h3>
-                        <p class="course-description">Algorithm development and effective programming, top-down
-                            analysis,
-                            structured programming, testing, and program correctness.</p>
-                    </div>
-                    <div class="course-card">
-                        <h3>EECS 203: Discrete Mathematics</h3>
-                        <p class="course-description">prepositional and predicate logic, set theory, function and
-                            relations,
-                            growth of functions and asymptotic notation, intro to algorithms, graph theory</p>
-                    </div>
-                    <div class="course-card">
-                        <h3>EECS 183: Elementary Programming Concepts</h3>
-                        <p class="course-description">Flow of control, data structures, algorithms using selection and
-                            iteration
-                            (decision making, searching, sorting, simulation, etc.)</p>
-                    </div>
-                    <div class="course-card">
-                        <h3>MATH 215: Multivariable & Vector Calculus</h3>
-                        <p class="course-description">Vector algebra & functions, analytic geometry of planes,
-                            partial differentiation; integrals and applications, vector fields</p>
-                    </div>
-                    <div class="course-card">
-                        <h3>MATH 214: Applied Linear Algebra</h3>
-                        <p class="course-description">Matrices and linear algebra, with an emphasis on concepts and
-                            problem solving</p>
-                    </div>
-                    <div class="course-card">
-                        <h3>STATS 250: Intro to Statistics & Data Analysis</h3>
-                        <p class="course-description">Frequency distributions, graphic presentation; elementary
-                            probability, sampling distributions,
-                            regression, correlation, analysis of variance</p>
-                    </div>
+
+
                     <div class="course-card business">
                         <h3>PUBPOL 475: Leadership</h3>
                         <p class="course-description">Set tone, focus, and direction for an organization, its members,
@@ -198,31 +150,95 @@
                         </p>
                     </div>
                     <div class="course-card business">
-                        <h3>ECON 101: Economic Principles I</h3>
-                        <p class="course-description">Focus on microeconomics, how markets function,
-                            distribution of wealth, the public sector, international trade, and environmental economics
+                        <h3>ACC 471: Accounting Principles</h3>
+                        <p class="course-description">Financial and managerial accounting with an emphasis on an
+                            external
+                            or a user perspective of accounting</p>
+                    </div>
+
+                    <div class="course-card math">
+                        <h3>STATS 426: Theoretical Probability</h3>
+                        <p class="course-description"> Models for experimental and observational data, normal sampling
+                            theory,
+                            point estimation, intro to regression & analysis of variance, etc
                         </p>
                     </div>
-                    <!-- Add more courses as needed -->
-                    <div class="course-card humanities">
-                        <h3>HONORS 241: Westworld & Philosophy of Mind</h3>
-                        <p class="course-description">Exploring the nature of consciousness through classical &
-                            contemporary philosophy;
-                            inspired by Westworld’s speculation on humans’ robotic nature
+
+                    <div class="course-card math">
+                        <h3>STATS 425: Probability</h3>
+                        <p class="course-description">Combinatorics, conditional probability, Bayes’ theorem,
+                            discrete and continuous distributions, expectation, and variance</p>
+                    </div>
+                    <div class="course-card math">
+                        <h3>MATH 423: Mathematics of Finance</h3>
+                        <p class="course-description">Risk and return theory, portfolio theory, capital asset pricing
+                            model,
+                            random walk model, stochastic processes, Black-Scholes Analysis, interest rate models, etc
                         </p>
                     </div>
-                    <div class="course-card science">
-                        <h3>ASTRO 127: Naked Eye Astronomy</h3>
-                        <p class="course-description">On the nature of astronomical objects that can be observed by
-                            eyee; focus on the motion
-                            of such objects in the sky along with their influence on the Earth
+                    <div class="course-card business">
+                        <h3>TO 414: Advanced Analytics in Management Consulting</h3>
+                        <p class="course-description">Applied advanced data analytics to solve complex business &
+                            financial problems;
+                            data visualization, data slicing, forecasting, classification, etc</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>DATASCI 315: Statistics & AI</h3>
+                        <p class="course-description">Statistical and machine learning techniques such as deep neural
+                            networks,
+                            with applications to analyzing text and image data.</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>DATASCI 306: Statistical Computing</h3>
+                        <p class="course-description">R programming and statistical computing techniques applied to data
+                            extraction &
+                            manipulation, statistical processing, and visualization.</p>
+
+                    </div>
+                    <div class="course-card social">
+                        <h3>SLAVIC 290: The Art of Fraud & Manipulation</h3>
+                        <p class="course-description">Gaming the system. Playing the people. Climbing the ladder.
+                            Deconstructing mechanics of political opportunism and collective delusion.
                         </p>
                     </div>
+                    <div class="course-card social">
+                        <h3>ANTHARC 285: Frauds & Fantastic Claims in Archeology</h3>
+                        <p class="course-description">Examine claims about the past that fascinate the public but are 
+                            considered pseudoscience by archaeologists. 
+                            
+                        </p>
+                    </div>
+                    <div class="course-card">
+                        <h3>EECS 281: Data Structures & Algorithms</h3>
+                        <p class="course-description"> Algorithm analysis and O-notation; fundamental data structures
+                            and searching & sorting algorithms; implemented major programs</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>EECS 280: Programming & Introductory Data Structures</h3>
+                        <p class="course-description">Algorithm development and effective programming, top-down
+                            analysis,
+                            structured programming, testing, and program correctness.</p>
+                    </div>
+
+
                     <div class="course-card science">
                         <h3>ALA 280: Undergrad Research Opportunity Program</h3>
                         <p class="course-description">Undergrad research program; selected for tiger behavioral research
                             to
                             compile data and conduct analysis on behavioral diversity
+                        </p>
+                    </div>
+                    <div class="course-card math">
+                        <h3>STATS 250: Intro to Statistics & Data Analysis</h3>
+                        <p class="course-description">Frequency distributions, graphic presentation; elementary
+                            probability, sampling distributions,
+                            regression, correlation, analysis of variance</p>
+                    </div>
+                    <div class="course-card humanities">
+                        <h3>HONORS 241: Westworld & Philosophy of Mind</h3>
+                        <p class="course-description">Exploring the nature of consciousness through classical &
+                            contemporary philosophy;
+                            inspired by Westworld’s speculation on humans’ robotic nature
                         </p>
                     </div>
                     <div class="course-card humanities">
@@ -238,6 +254,37 @@
                             and provide insight into the literature and culture of Spanish-speaking people
                         </p>
                     </div>
+                    <div class="course-card math">
+                        <h3>MATH 215: Multivariable & Vector Calculus</h3>
+                        <p class="course-description">Vector algebra & functions, analytic geometry of planes,
+                            partial differentiation; integrals and applications, vector fields</p>
+                    </div>
+                    <div class="course-card math">
+                        <h3>MATH 214: Applied Linear Algebra</h3>
+                        <p class="course-description">Matrices and linear algebra, with an emphasis on concepts and
+                            problem solving</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>EECS 203: Discrete Mathematics</h3>
+                        <p class="course-description">prepositional and predicate logic, set theory, function and
+                            relations,
+                            growth of functions and asymptotic notation, intro to algorithms, graph theory</p>
+                    </div>
+
+
+                    <div class="course-card humanities">
+                        <h3>GTBOOKS 191: Great Books</h3>
+                        <p class="course-description">Classics reading & writing course on great works from Greco-Roman
+                            antiquity
+                            focusing on central questions of human existence
+                        </p>
+                    </div>
+                    <div class="course-card">
+                        <h3>EECS 183: Elementary Programming Concepts</h3>
+                        <p class="course-description">Flow of control, data structures, algorithms using selection and
+                            iteration
+                            (decision making, searching, sorting, simulation, etc.)</p>
+                    </div>
                     <div class="course-card science">
                         <h3>EARTH 142: From Stars to Stones</h3>
                         <p class="course-description">The birth and journey of the elements from stars to stones;
@@ -246,17 +293,23 @@
                         </p>
                     </div>
                     <div class="course-card humanities">
-                        <h3>GTBOOKS 191: Great Books</h3>
-                        <p class="course-description">Classics reading & writing course on great works from Greco-Roman
-                            antiquity
-                            focusing on central questions of human existence
-                        </p>
-                    </div>
-                    <div class="course-card humanities">
                         <h3>HONORS 135: Dystopian Fiction</h3>
                         <p class="course-description">Focus on six YA dystopian fiction novels to explore the portrayal
                             of
                             young female protagonists in context of gender & literature studies
+                        </p>
+                    </div>
+                    <div class="course-card science">
+                        <h3>ASTRO 127: Naked Eye Astronomy</h3>
+                        <p class="course-description">On the nature of astronomical objects that can be observed by
+                            eyee; focus on the motion
+                            of such objects in the sky along with their influence on the Earth
+                        </p>
+                    </div>
+                    <div class="course-card business">
+                        <h3>ECON 101: Economic Principles I</h3>
+                        <p class="course-description">Focus on microeconomics, how markets function,
+                            distribution of wealth, the public sector, international trade, and environmental economics
                         </p>
                     </div>
                 </div>
@@ -301,12 +354,23 @@
                 }
 
                 /* Colors for classs */
-                .course-card.business:hover {
+                .course-card.math:hover {
                     background-color: #839bb7;
                     color: white;
                 }
+
+                .course-card.business:hover {
+                    background-color: #cfbacc;
+                    color: white;
+                }
+
                 .course-card.humanities:hover {
                     background-color: #cf8f90;
+                    color: white;
+                }
+
+                .course-card.social:hover {
+                    background-color: #aaa3a9 ;
                     color: white;
                 }
 
@@ -314,7 +378,6 @@
                     background-color: #88aa8a;
                     color: white;
                 }
-                
             </style>
 
 
